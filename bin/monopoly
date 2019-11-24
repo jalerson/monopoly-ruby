@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'monopoly'
+require 'byebug'
+
+Monopoly::Ui::CliUi.new.run
